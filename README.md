@@ -21,7 +21,7 @@ Exercices sur les variables, conditions et logique de base :
 
 ### Challenge 2 : Jeu du Nombre Mystère
 
-**Fichier :** `02_variable_condition.py`
+**Fichier :** `02_number_guessing_game.py`
 
 Un mini-jeu interactif pour pratiquer :
 
@@ -59,6 +59,20 @@ Manipulation complète des listes et structures de données :
 - 🧮 Matrices (tableaux 2D)
 - 📦 Groupement de données
 
+### Challenge 5 : Rock-Paper-Scissors (Avancé)
+
+**Fichier :** `05_rock_paper_scissors.py`
+
+Jeu interactif complet utilisant les concepts de tableaux :
+
+- 🪨 Logique de base du jeu (rock bat scissors, etc.)
+- 🎲 Génération de choix aléatoire pour l'ordinateur
+- 🎨 Conversion en emojis pour l'affichage (🪨📄✂️)
+- 🎮 Jeu interactif avec `input()` pour les tests
+- 📊 Utilisation de tableaux pour l'historique des parties
+- 🧠 Stratégie intelligente basée sur l'historique
+- 📈 Statistiques et analyse des performances
+
 ## 🚀 Comment commencer
 
 1. **Clonez le repository :**
@@ -72,9 +86,10 @@ Manipulation complète des listes et structures de données :
 
    ```bash
    python 01_variable_condition.py
-   python 02_variable_condition.py
+   python 02_number_guessing_game.py
    python 03_boucle.py
    python 04_tableaux.py
+   python 05_rock_paper_scissors.py
    ```
 
 3. **Implémentez les fonctions :**
