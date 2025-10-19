@@ -1,5 +1,5 @@
 # ========================================
-# CHALLENGE 2: Boucles
+# CHALLENGE 3: Boucles
 # ========================================
 
 # EXERCICE 1: Table de multiplication
