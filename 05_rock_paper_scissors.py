@@ -33,19 +33,7 @@ def generer_choix_ordi() -> str:
     pass
 
 
-# EXERCICE 3: Conversion en emoji
-"""
-Convertissez les choix en emojis pour l'affichage
-
-:param choix: str - "rock", "paper", ou "scissors"
-:return: str - L'emoji correspondant
-"""
-def choix_vers_emoji(choix: str) -> str:
-    # TODO: Retournez "🪨" pour rock, "📄" pour paper, "✂️" pour scissors
-    pass
-
-
-# EXERCICE 4: Historique des parties
+# EXERCICE 3: Historique des parties
 """
 Créez une fonction qui ajoute un tour à l'historique
 
@@ -60,7 +48,7 @@ def ajouter_tour_historique(historique: list, choix_joueur: str, choix_ordi: str
     pass
 
 
-# EXERCICE 5: Statistiques de l'historique
+# EXERCICE 4: Statistiques de l'historique
 """
 Analysez l'historique pour calculer les statistiques
 
@@ -73,7 +61,7 @@ def calculer_statistiques(historique: list) -> dict:
     pass
 
 
-# EXERCICE 6: Choix préféré du joueur
+# EXERCICE 5: Choix préféré du joueur
 """
 Trouvez le choix le plus fréquent du joueur dans l'historique
 
@@ -86,7 +74,7 @@ def trouver_choix_prefere_joueur(historique: list) -> str:
     pass
 
 
-# EXERCICE 7: Stratégie intelligente
+# EXERCICE 6: Stratégie intelligente
 """
 Créez une stratégie qui choisit le contre du choix préféré du joueur
 
@@ -101,7 +89,7 @@ def strategie_intelligente(historique: list) -> str:
     pass
 
 
-# EXERCICE 8: Jeu complet avec historique
+# EXERCICE 7: Jeu complet avec historique
 """
 Créez une fonction qui gère un jeu complet avec plusieurs tours et historique
 

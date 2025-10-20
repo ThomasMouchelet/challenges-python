@@ -12,7 +12,6 @@ Exercices sur les variables, conditions et logique de base :
 
 - ✅ Vérification d'âge (catégorisation)
 - ✅ Calculateur de notes (conversion numérique → lettre)
-- ✅ Vérification de mot de passe (force du mot de passe)
 - ✅ Calculateur de remise (prix avec remises progressives)
 - ✅ Frais de port (calcul selon montant et destination)
 - ✅ Validation d'e-mail (vérification basique)
@@ -43,6 +42,8 @@ Exercices avancés sur les boucles et algorithmes :
 - 🔢 Jeu FizzBuzz
 - 🔢 Somme de chiffres
 - ⭐ Motifs d'étoiles (triangles)
+- 🔐 Vérification de mot de passe (boucles sur chaînes)
+- 🎨 Conversion en emojis (listes)
 
 ### Challenge 4 : Tableaux
 
@@ -67,9 +68,8 @@ Jeu interactif complet utilisant les concepts de tableaux :
 
 - 🪨 Logique de base du jeu (rock bat scissors, etc.)
 - 🎲 Génération de choix aléatoire pour l'ordinateur
-- 🎨 Conversion en emojis pour l'affichage (🪨📄✂️)
-- 🎮 Jeu interactif avec `input()` pour les tests
 - 📊 Utilisation de tableaux pour l'historique des parties
+- 🎮 Jeu interactif avec `input()` pour les tests
 - 🧠 Stratégie intelligente basée sur l'historique
 - 📈 Statistiques et analyse des performances
 

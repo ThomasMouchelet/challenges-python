@@ -104,6 +104,39 @@ def generer_triangle_etoiles(hauteur: int) -> str:
     pass
 
 
+# EXERCICE 8: Vérification de mot de passe
+"""
+Créez une fonction qui vérifie la force d'un mot de passe
+
+Critères pour un mot de passe fort:
+- Au moins 8 caractères
+- Contient au moins une majuscule
+- Contient au moins une minuscule
+- Contient au moins un chiffre
+
+:param mot_de_passe: str - Le mot de passe à vérifier
+:return: str - "Fort", "Moyen" ou "Faible"
+"""
+def verifier_mot_de_passe(mot_de_passe: str) -> str:
+    # TODO: Utilisez une boucle for pour parcourir chaque caractère
+    # Comptez les majuscules, minuscules et chiffres
+    # Retournez "Fort" si tous les critères sont remplis, "Moyen" si partiellement, "Faible" sinon
+    pass
+
+
+# EXERCICE 9: Conversion en emojis
+"""
+Convertissez une liste de choix en emojis pour l'affichage
+
+:param choix: list[str] - Liste des choix ("rock", "paper", "scissors")
+:return: list[str] - Liste des emojis correspondants
+"""
+def convertir_choix_en_emojis(choix: list[str]) -> list[str]:
+    # TODO: Utilisez une boucle for pour parcourir la liste
+    # Retournez "🪨" pour rock, "📄" pour paper, "✂️" pour scissors
+    pass
+
+
 # ========================================
 # TESTS - Ne pas modifier
 # ========================================
@@ -130,3 +163,13 @@ if __name__ == "__main__":
 
     print("\n=== Tests Triangle d'étoiles ===")
     print(generer_triangle_etoiles(5))
+
+    print("\n=== Tests Vérification mot de passe ===")
+    print(verifier_mot_de_passe("MonMotDePasse123"))  # "Fort"
+    print(verifier_mot_de_passe("motdepasse"))        # "Faible"
+    print(verifier_mot_de_passe("MotDePasse"))        # "Moyen"
+    print(verifier_mot_de_passe("12345678"))          # "Moyen"
+
+    print("\n=== Tests Conversion emojis ===")
+    print(convertir_choix_en_emojis(["rock", "paper", "scissors"]))  # ["🪨", "📄", "✂️"]
+    print(convertir_choix_en_emojis(["rock", "rock", "paper"]))      # ["🪨", "🪨", "📄"]

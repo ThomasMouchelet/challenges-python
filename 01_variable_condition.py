@@ -40,25 +40,7 @@ def convertir_note_en_lettre(note: int) -> str:
     pass
 
 
-# EXERCICE 3: Vérification de mot de passe
-"""
-Créez une fonction qui vérifie la force d'un mot de passe
-
-Critères pour un mot de passe fort:
-- Au moins 8 caractères
-- Contient au moins une majuscule
-- Contient au moins une minuscule
-- Contient au moins un chiffre
-
-:return: "Fort", "Moyen" ou "Faible"
-"""
-def verifier_mot_de_passe(mot_de_passe: str) -> str:
-    # TODO: Implémentez la logique ici
-    # Utilisez des conditions et des fonctions comme isupper(), islower(), isdigit()
-    pass
-
-
-# EXERCICE 4: Calculateur de remise
+# EXERCICE 3: Calculateur de remise
 """
 Créez une fonction qui calcule le prix final avec remise
 
@@ -79,7 +61,7 @@ def calculer_prix_final(montant: float, est_membre: bool) -> float:
     pass
 
 
-# EXERCICE 5: Frais de port
+# EXERCICE 4: Frais de port
 """
 Calculez les frais de port en fonction du montant et du pays.
 
@@ -98,7 +80,7 @@ def calculer_frais_port(montant: float, est_france: bool) -> float:
     pass
 
 
-# EXERCICE 6: Validation simple d'e-mail
+# EXERCICE 5: Validation simple d'e-mail
 """
 Vérifiez rapidement si une adresse e-mail est plausible.
 
@@ -116,7 +98,7 @@ def valider_email(email: str) -> str:
     pass
 
 
-# EXERCICE 7: Type de triangle
+# EXERCICE 6: Type de triangle
 """
 Déterminez le type de triangle à partir des longueurs des côtés.
 
@@ -137,7 +119,7 @@ def type_triangle(a: float, b: float, c: float) -> str:
     pass
 
 
-# EXERCICE 8: Catégorisation de température
+# EXERCICE 7: Catégorisation de température
 """
 Retournez une étiquette en fonction d'une température en °C.
 
@@ -173,10 +155,6 @@ if __name__ == "__main__":
     print(convertir_note_en_lettre(65))  # "D"
     print(convertir_note_en_lettre(50))  # "F"
 
-    print("\n=== Tests Mot de passe ===")
-    print(verifier_mot_de_passe("MonMotDePasse123"))  # "Fort"
-    print(verifier_mot_de_passe("motdepasse"))        # "Faible"
-    print(verifier_mot_de_passe("MotDePasse"))        # "Moyen"
 
     print("\n=== Tests Prix final ===")
     print(calculer_prix_final(1200, False))  # 1020.0
